@@ -1,6 +1,7 @@
 require "pry"
 dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(dwarfs)
+  binding.pry
   dwarfs.each_with_index { |item, index| puts "#{index}:#{item}" }
   end
 
