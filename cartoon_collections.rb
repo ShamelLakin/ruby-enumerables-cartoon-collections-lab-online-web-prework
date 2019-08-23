@@ -7,8 +7,9 @@ def roll_call_dwarves(dwarfs)
    planeteer_calls.map {|name| name.capitalize + "!" }
  end
 
+calls_long = ["axe", "earth", "wind", "fire"]
  def long_planeteer_calls(calls_long)
-   # Your code here
+   calls_long
  end
 
  def find_the_cheese# code an argument here
