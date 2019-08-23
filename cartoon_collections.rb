@@ -5,7 +5,6 @@ def roll_call_dwarves(dwarfs)
   end
  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
  def summon_captain_planet (planeteer_calls)
-  binding.pry
    planeteer_calls.map {|name| name.capitalize + "!" }
  end
 
