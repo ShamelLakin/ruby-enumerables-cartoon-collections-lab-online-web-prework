@@ -9,8 +9,7 @@ def roll_call_dwarves(dwarfs)
 
 calls_long = ["axe", "earth", "wind", "fire"]
  def long_planeteer_calls(calls_long)
-  calls.any? do |call|
-    call.length > 4
+  calls_long.any? do |calls_long| call.length > 4
   end
  end
 
