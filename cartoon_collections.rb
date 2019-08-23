@@ -1,5 +1,5 @@
-dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"]
-def roll_call_dwarves(dwarfs)
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+def roll_call_dwarves(dwarves)
   dwarfs.each_with_index { |item, index| puts "#{index + 1}:#{item}" }
   end
  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
